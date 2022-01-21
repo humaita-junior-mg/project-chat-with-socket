@@ -8,14 +8,36 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="messages"></div>
+<h1>Chat</h1>
 
-    <form name="message_form_name" id="message_form">
-        <input type="text" name="message_input_name" id="message_input" >
-        <button type="submit">Salvar</button>
-    </form>
+    <div id="div_all_messages">
 
-    <script src="socket.io/socket.io.js"></script>
-    <script src="chat.js"></script>
+        <!-- mensagens -->
+        <!-- mensagens -->
+        <!-- mensagens -->
+
+    </div>
+    
+    <div id="div_form_message">   
+
+        <form name="form_message_name" id="form_message_id" style="display: none;">
+            <input type="text" name="input_message_name" id="input_message_id" placeholder="Mensagem">
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+
+    <div id="div_form_user">   
+
+        <form name="form_user_name" id="form_user_id">
+            <input type="text" name="input_user_name" id="input_user_id" placeholder="Seu Nome">
+            <button type="submit">Entrar</button>
+        </form>
+
+    </div>
+
+
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

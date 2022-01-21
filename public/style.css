@@ -1,5 +1,68 @@
-#messages{
-    background-color: aliceblue;
+h1{
+    text-align: center;
+}
+
+#div_all_messages{
+    margin: 25px auto 0 auto;
+    padding: 10px;
+    background-color: rgb(186, 224, 247);
     width: 500px;
     height: 700px;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.144)
 }
+
+#message{
+    background-color: white;
+    border-radius: 30px;
+    
+    
+}
+
+#message h4{
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+#message p{
+    margin-top: 0%;
+    margin-left: 40px;
+}
+
+#div_form_message{
+    text-align: center;
+    margin-top: 15px;    
+}
+
+#div_form_user{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+input{
+    padding: 5px;
+    border: 1.5px solid black;
+    width: 300px;
+}
+
+button{
+    display: block;
+    margin: 10px auto 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+
